@@ -28,8 +28,7 @@ pipeline {
         AAAA = 'message'
       }
       steps {
-        sh '''echo "user ENVVAL"
-echo "${AAA}"'''
+        sh 'echo "${AAAA}"'
       }
     }
     stage('end') {
