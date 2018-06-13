@@ -19,7 +19,7 @@ pipeline {
           steps {
             sh 'echo "para2start"'
             sh 'echo "para2 end"'
-            sh 'exit 1'
+            sh 'exit 0'
           }
         }
       }
